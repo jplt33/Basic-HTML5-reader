@@ -1,0 +1,23 @@
+.bouton {
+    width:auto;
+    padding:5px 3px;
+    text-align:center;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.8em;
+    width:auto;
+    color:#000;
+    font-family: Arial,sans-serif;
+    border: solid 1px #FFF;
+}
+
+.bouton:hover {
+    border: solid 1px #765;
+    background: #EEE;
+    background: -webkit-linear-gradient( #FFF, #EEE);
+    background: -moz-linear-gradient( #FFF, #EEE);
+    background: -ms-linear-gradient( #FFF, #EEE);
+    background: -o-linear-gradient( #FFF, #EEE);
+    background: linear-gradient( #FFF, #EEE);
+}
